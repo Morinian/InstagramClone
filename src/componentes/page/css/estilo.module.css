@@ -26,8 +26,9 @@ header{
 
     padding-left: 15px;
 }
-header a{
+header button{
     color: #fff;
+    background-color: #000000;
 
     text-decoration: none;
     display: flex;
@@ -40,10 +41,10 @@ header a{
     padding-left: 10px;
 }
 
-header a:hover{
+header button:hover{
     background-color: #1a1a1a;
 }
-a:hover svg{
+button:hover svg{
     transform: scale(1.2);
 }
 
