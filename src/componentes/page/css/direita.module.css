@@ -1,0 +1,84 @@
+
+/*Corpo pagina*/
+
+main{
+    width: 350px;
+    height: 1000px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*Recomendações de conta*/
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.direita{
+    margin-right: 40px;
+}
+.pessoas{
+    margin-top:10px ;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 290px;
+    height: 100px;
+
+    font-size: 12px;
+}
+.suj{
+    height: 50px;
+}
+.dirdir{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.pessoas img{
+    width: 43px;
+    border-radius: 300px;
+}
+.nomes{
+    color:#fff;
+    margin-left: 16px;
+}
+.nomes p{
+    color: #9b9b9b;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.pessoas a{
+    font-weight: 600;
+    color: #008ce7;
+}
+
+.voce{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #868686;
+}
+.voce h4{
+    font-size: 14px;
+}
+.voce h6{
+    color: #fff;
+}
+
+footer{
+    margin-top: 40px;
+    width: 290px;
+}
+footer p{
+    font-size: 12px;
+    color: #737373;
+}
+footer .pm{
+    margin-top: 20px;
+}
