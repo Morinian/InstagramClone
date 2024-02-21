@@ -8,8 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="lado"> 
-      <Navbar/>
-      
+        <Navbar/>
         <Meio/>
         <Direita/>
       </div>
