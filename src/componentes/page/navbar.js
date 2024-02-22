@@ -6,6 +6,10 @@ import Modal from 'react-modal'
 
 import { useState } from "react";
 
+
+Modal.setAppElement("#root");
+
+
 function Navbar() {
     const [modalIsOpen, setIsOpen] = useState(false);
 
@@ -16,6 +20,7 @@ function Navbar() {
     function closeModal() {
         setIsOpen(false);
     }
+
   return (
     <div className={Styles.linha}>
         <header>
@@ -89,7 +94,7 @@ function Navbar() {
                     className="modal-content">
                     <h4>Suas Candidaturas</h4>
 
-                    <div className="ModalCand">
+                    <div className={Styles.ModalFunfa}>
                     </div>
 
                     <button className="BotaoFechar" onClick={closeModal}>Fechar</button>

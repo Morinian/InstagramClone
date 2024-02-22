@@ -191,3 +191,11 @@ footer .pm{
     display: flex;
     flex-direction: row;
 }
+
+/*REACT MODAL */
+
+.ModalFunfa{
+    width: 500px;
+    height: 500px;
+    background-color: #000000;
+}
