@@ -3,7 +3,6 @@ import perfil from '../imgs/icone.jpg'
 import instagram from '../imgs/instagram.jpg'
 
 import Modal from 'react-modal'
-
 import { useState } from "react";
 
 
@@ -90,13 +89,8 @@ function Navbar() {
                     isOpen={modalIsOpen}
                     onRequestClose={closeModal}
                     contentLabel="Example Modal"
-                    overlayClassName="modal-overlay"
-                    className="modal-content">
+                    overlayClassName="modal-overlay">
                     <h4>Suas Candidaturas</h4>
-
-                    <div className={Styles.ModalFunfa}>
-                    </div>
-
                     <button className="BotaoFechar" onClick={closeModal}>Fechar</button>
                 </Modal>
 
